@@ -1,0 +1,23 @@
+{
+  "name": "grunt-plugin-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://masatomix@github.com/masatomix/grunt-plugin-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masatomix/grunt-plugin-sample/issues"
+  },
+  "homepage": "https://github.com/masatomix/grunt-plugin-sample#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^2.2.0"
+  }
+}
