@@ -59,10 +59,48 @@ Done.
 実行されました。
 
 ここまでの参考。
-* https://github.com/fnobi/grunt-koko
 * http://js.studio-kingdom.com/grunt/doc/getting_started
 * https://gruntjs.com/getting-started
 * http://kokudori.hatenablog.com/entry/2013/04/03/010236
 * http://qiita.com/fnobi/items/5590e7e92b4f2bd81d04
+* https://github.com/fnobi/grunt-koko
 
+
+---
+
+さてプラグインを作る本題。
+
+````bash
+// 直接タスクを実行
+$ grunt hello
+Running "hello:develop" (hello) task
+hello world plugin!
+source path
+destination path
+
+Done.
+
+// サブ？のタスク名で実行
+$ grunt hello:develop
+Running "hello:develop" (hello) task
+hello world plugin!
+source path
+destination path
+
+Done.
+
+// 複数のタスクを実行
+$ grunt mytask
+Running "uglify:build" (uglify) task
+File build/grunt-plugin-sample.min.js created: 59 B → 94 B
+>> 1 file created.
+
+Running "hello:develop" (hello) task
+hello world plugin!
+source path
+destination path
+
+Done.
+$ 
+````
 
